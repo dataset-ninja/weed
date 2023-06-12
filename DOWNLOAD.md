@@ -13,4 +13,4 @@ import dataset_tools as dtools
 
 dtools.download(dataset='Weed', dst_path='~/dtools/datasets/Weed.tar')
 ```
-The data in original format can be 🔗[downloaded here](https://github.com/lameski/rgbweeddetection)
+The data in original format can be 🔗[downloaded here](https://github.com/lameski/rgbweeddetection/archive/refs/heads/master.zip)
