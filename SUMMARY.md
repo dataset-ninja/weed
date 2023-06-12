@@ -6,4 +6,4 @@ Each image in the Weed detection dataset has pixel-level instance segmentation a
 
 Here is the visualized example grid with annotations:
 
-<img src="https://github.com/dataset-ninja/weed/raw/main/visualizations/horizontal_grid.png">
+<img src="https://github.com/dataset-ninja/weed/raw/main/visualizations/side_annotations_grid.png">
