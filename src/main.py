@@ -65,6 +65,6 @@ if __name__ == "__main__":
     project_repo = ProjectRepo(api, project_id, settings)
     project_repo.build_stats(force=force_stats)
     project_repo.build_visualizations(force=force_visuals)
-    project_repo.build_texts(force=force_texts, preview_class="HorizontalGrid")
+    project_repo.build_texts(force=force_texts, preview_class="SideAnnotationsGrid")
 
     sly.logger.info("Script finished.")
