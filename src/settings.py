@@ -5,7 +5,7 @@ from dataset_tools.templates import AnnotationType, CVTask, Industry, License
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Weed"
+PROJECT_NAME: str = "Weed detection"
 PROJECT_NAME_FULL: str = (
     "Weed detection dataset with RGB images taken under variable light conditions"
 )
