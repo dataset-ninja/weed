@@ -1,9 +1,9 @@
-
-import os, sys
+import os
+import sys
 from pathlib import Path
+
 import supervisely as sly
 from supervisely.app.v1.app_service import AppService
-
 
 # my_app: AppService = AppService()
 # api: sly.Api = my_app.public_api
@@ -18,21 +18,21 @@ sys.path.append(root_source_dir)
 
 logger = sly.logger
 
-project_name = 'weed'
-dataset_name = 'ds'
-work_dir = 'weed'
-weed_url = 'https://codeload.github.com/lameski/rgbweeddetection/zip/refs/heads/master'
+# project_name = "Weed"
+dataset_name = "ds"
+work_dir = "weed"
+weed_url = "https://codeload.github.com/lameski/rgbweeddetection/zip/refs/heads/master"
 
-arch_name = 'rgbweeddetection-master.zip'
-folder_name = 'rgbweeddetection-master'
+arch_name = "rgbweeddetection-master.zip"
+folder_name = "rgbweeddetection-master"
 
-images_folder_name = 'Images'
-annotation_folder_name = 'Weed_Plant_Masks'
-ann_suffix = '_mask.png'
-class_name_weed = 'weed'
-class_name_carrot = 'carrot'
+images_folder_name = "Images"
+annotation_folder_name = "Weed_Plant_Masks"
+ann_suffix = "_mask.png"
+class_name_weed = "weed"
+class_name_carrot = "carrot"
 
-index_to_class = {'weed': 1, 'carrot': 2}
+index_to_class = {"weed": 1, "carrot": 2}
 max_label_area = 3000
 
 batch_size = 3
@@ -43,7 +43,8 @@ obj_class_collection = sly.ObjClassCollection([obj_class_weed, obj_class_carrot]
 
 meta = sly.ProjectMeta(obj_classes=obj_class_collection)
 
-storage_dir = sly.app.get_data_dir()
+# storage_dir = sly.app.get_data_dir()
+storage_dir = "./APP_DATA"
 work_dir_path = os.path.join(storage_dir, work_dir)
 sly.io.fs.mkdir(work_dir_path)
 archive_path = os.path.join(work_dir_path, arch_name)
