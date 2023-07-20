@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 **Weed detection dataset with RGB images taken under variable light conditions** is a dataset for instance segmentation, object detection, and semantic segmentation tasks. It is used in the agricultural research. 
-=======
-**Weed detection dataset with RGB images taken under variable light conditions** is a dataset for instance segmentation, object detection, and semantic segmentation tasks. It is used in the agriculture industry.
->>>>>>> ac2d1eeff2d33cce74a73f5a42325bc593c6f45c
 
 The dataset consists of 39 images with 745 labeled objects belonging to 2 different classes including *weed* and *carrot*.
 
