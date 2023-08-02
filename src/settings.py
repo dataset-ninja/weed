@@ -27,8 +27,8 @@ CATEGORY: Category = Category.Agriculture()
 
 CV_TASKS: List[CVTask] = [
     CVTask.InstanceSegmentation(),
-    CVTask.ObjectDetection(),
     CVTask.SemanticSegmentation(),
+    CVTask.ObjectDetection(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
