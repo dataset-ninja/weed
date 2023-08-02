@@ -13,9 +13,9 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Weed detection"
+PROJECT_NAME: str = "Weed Detection"
 PROJECT_NAME_FULL: str = (
-    "Weed detection dataset with RGB images taken under variable light conditions"
+    "Weed Detection Dataset with RGB Images Taken under Variable Light Conditions"
 )
 
 ##################################
@@ -51,7 +51,7 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/weed"
 DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://github.com/lameski/rgbweeddetection"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {"weed": [0, 0, 255], "carrot": [255, 0, 255]}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://link.springer.com/chapter/10.1007/978-3-319-67597-8_11"
