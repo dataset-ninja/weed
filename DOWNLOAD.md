@@ -1,6 +1,6 @@
 Dataset **Weed Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/q/2/Qo/TjVk54bJ4xpUReIe5DwMtw6uHeU5vTGViP5z3n6N96DHVdTMOIsfDW17YjrU5jAYGI033GjVgLaWfUDCaJMK2CKKY6aJ8NvTDkj4zfqhgdQteIlsA7oMMvgDwbxq.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/4/X/me/1NqGOcndkAb0h0fqcZ7tQMXYCZESjZXpR1Cibq1olwwUe6lVkSEpW2xasr9RJOUC3dghoiYf6TQ5HnsBrp15QYXyxjkqgPBrbvPOyArW2fMUj8vM6us6Ex1DY8kS.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
