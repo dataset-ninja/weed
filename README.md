@@ -1,3 +1,3 @@
-# Weed detection dataset with RGB images taken under variable light conditions
+# Weed Detection Dataset with RGB Images Taken under Variable Light Conditions
 
-Weed detection is a dataset for instance segmentation, object detection, semantic segmentation tasks.
+Weed Detection is a dataset for instance segmentation, semantic segmentation, object detection tasks.
