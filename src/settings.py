@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Weed Detection"
+PROJECT_NAME: str = "Carrot-Weed"
 PROJECT_NAME_FULL: str = (
     "Weed Detection Dataset with RGB Images Taken under Variable Light Conditions"
 )
