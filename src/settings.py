@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Carrot-Weed"
 PROJECT_NAME_FULL: str = (
-    "Weed Detection Dataset with RGB Images Taken under Variable Light Conditions"
+    "Carrot-Weed: Weed Detection Dataset with RGB Images Taken under Variable Light Conditions"
 )
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
