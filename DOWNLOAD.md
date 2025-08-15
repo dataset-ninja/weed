@@ -1,6 +1,6 @@
 Dataset **Carrot-Weed** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzk1NV9DYXJyb3QtV2VlZC9jYXJyb3Qtd2VlZC1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJGMXFXOEtTOElxUGRNbEVrWURnbmV3THZaUE1ZbHJEazBCeFlKSjNmYlRzPSJ9)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvOTU1X0NhcnJvdC1XZWVkL2NhcnJvdC13ZWVkLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogImV0L3YzdEpnOEx0MXB5TjBOZTFUbmY5SUpyTWw3Z3RJdHczWFh0MXUzSmM9In0=?response-content-disposition=attachment%3B%20filename%3D%22carrot-weed-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
